@@ -1,5 +1,6 @@
 # Pygame and System Modules
 import sys
+import math
 import time
 import pygame
 from . import window
@@ -35,7 +36,7 @@ class Draw():
 
     #draw a partial section of an ellipse
     def arc(Surface, color, left, top, width, height, start_angle, stop_angle):
-        pygame.draw.arc(Surface.screen, color,  Rect((left, top), (width, height)), start_angle, stop_angle)
+        pygame.draw.arc(Surface.screen, color,  Rect((left, top), (width, height)), math.radians(start_angle), math.radians(stop_angle))
 
     #draw a straight line segment
     def line(Surface, color, start_pos, end_pos):
@@ -46,14 +47,14 @@ class Draw():
          pygame.draw.lines(Surface.screen, color, closed, pointlist)
 
     #draw fine antialiased lines
-     def aaline(Surface, color, startpos, endpos, blend=1):
+    def aaline(Surface, color, startpos, endpos, blend=1):
         pygame.draw.aaline(Surface.screen, color, startpos, endpos, blend)
         
     #draw a connected sequence of antialiased lines
     def aalines(Surface, color, closed, pointlist, blend=1):	 
- 	pygame.draw.aalines(Surface.screen, color, closed, pointlist, blend)
+        pygame.draw.aalines(Surface.screen, color, closed, pointlist, blend)
 
-
+    #-----------------------SET METHODS AS STATICS --------------------
     rect = staticmethod(rect)
     polygon = staticmethod(polygon)
     circle= staticmethod(circle)
