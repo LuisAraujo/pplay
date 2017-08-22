@@ -1,5 +1,7 @@
-# PPlay
-Framework para criação de jogos em Python utilizado pelos alunos de Ciência da Computação da Universidade Federal Fluminense (UFF) e desenvolvido pelo Instituto de Computação da UFF. Este *fork* conta com algumas contribuições, tendo em vista que o projeto está passando por uma reformulação geral, que será publicada em breve.
+## PPlay
+Framework para criação de jogos em Python utilizado pelos alunos de Ciência da Computação da Universidade Federal Fluminense (UFF) e desenvolvido pelo Instituto de Computação da UFF. Este *fork* conta com algumas contribuições, minhas - enquanto estudante do Mestrado em Computação Aplicada da Universidade Estadual de Feira de Santana (UEFS) e membro do GTI - Grupo de Pesquisa e Extensão em Tecnologia da Informação, linha de pesquisa Educação em Computação. 
+
+As modificações foram feitas no master-brach, tendo em vista que o projeto está passando por uma reformulação geral, que será publicada em breve.
 
 Mais informações e documentação detalhada no site do projeto:
 [Página do PPlay](http://www2.ic.uff.br/pplay/ "Página do Play")
@@ -10,7 +12,7 @@ Classe Draw: [Modulo_Draw_Documentacao.pdf](http://luisaraujo.github.io/programa
 Classe Text: [Modulo_Draw_Documentacao.pdf](http://luisaraujo.github.io/programacao_com_midias/poo/bloco3/materiais/Modulo_Text_Documentacao.pdf "Documentação")
 
 
-Tutorial:
+**Tutorial:**
 
 Instalação: 
 
